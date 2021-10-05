@@ -1,0 +1,19 @@
+<mat-toolbar>
+  <mat-toolbar-row class="header">
+    <div class="header-container">
+      <div>
+        <a href="javascript:void(0);" (click)="logoClick()"
+          ><img
+            src="https://navtech.io/wp-content/uploads/2020/08/navtech_logo.png@width300namenavtech_logo.png"
+            class="img-fluid"
+          />
+        </a>
+      </div>
+      <div *ngIf="loginStatus" class="logout">
+        <div>
+          <a (click)="logout()" mat-flat-button><span>LOGOUT</span></a>
+        </div>
+      </div>
+    </div>
+  </mat-toolbar-row>
+</mat-toolbar>

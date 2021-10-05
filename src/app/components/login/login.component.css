@@ -1,0 +1,37 @@
+.body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 70vh;
+}
+
+.login-fields {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.mat-form-field {
+  width: 350px;
+}
+
+.button-container {
+  display: flex;
+  flex-direction: row;
+  width: 350px;
+  justify-content: space-evenly;
+}
+
+button {
+  width: 125px;
+  font-family: monospace;
+}
+
+.example-right-align {
+  text-align: right;
+}
+
+input.example-right-align {
+  -moz-appearance: textfield;
+}
